@@ -44,7 +44,7 @@ int am_main (void)
      *
      * 注意：同一时刻只能运行一个 demo，即只能使某一行处于取消注释状态。
      */
-    demo_aml166_core_std_led_entry();
+//    demo_aml166_core_std_led_entry();
 //    demo_aml166_core_std_delay_entry();
 //    demo_aml166_core_std_buzzer_entry();
 //    demo_aml166_core_hw_clk_entry();
@@ -95,7 +95,7 @@ int am_main (void)
 //    demo_aml166_core_hw_wwdg_entry();
 //    demo_aml166_core_std_iwdg_entry();
 //    demo_aml166_core_std_wwdg_entry();
-//    demo_aml166_core_zml166_adc_pt100_measure();
+    demo_aml166_core_zml166_adc_pt100_measure();
 //    demo_aml166_core_zml166_adc_vol_measure();
 //    demo_aml166_core_zml166_adc_thermocouple_measure();
 //    demo_aml166_core_zml166_adc_vol_para_adjuet();
